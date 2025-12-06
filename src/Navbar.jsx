@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 // import heroImg from "./assets/Logo12345.png";
 
-export default function Sidebar({ minimal = true }) {
+export default function Sidebar({ minimal = true }) 
+{
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
